@@ -1,0 +1,41 @@
+name: Automated Issue Triage
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    name: Welcome and label new issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add initial triage label and welcome comment
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const author = context.payload.issue.user.login;
+
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number,
+              labels: ['status: needs-triage']
+            });
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: [
+                `Chào mừng @${author} đã gửi Issue cho dự án!`,
+                '',
+                'Đội ngũ Maintainer đã tiếp nhận và sẽ phân loại theo quy trình Async-first.',
+                'Vui lòng cung cấp các thông tin cần thiết: bước tái hiện, kết quả mong đợi/thực tế, hệ điều hành và phiên bản.',
+                'Không đăng mật khẩu, access token hoặc dữ liệu cá nhân trong Issue công khai.'
+              ].join('\n')
+            });
