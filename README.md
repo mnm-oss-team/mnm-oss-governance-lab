@@ -19,7 +19,7 @@ Repository thực hành môn Mạng máy tính nâng cao – chủ đề **Quả
 | [@ttoannp](https://github.com/ttoannp) | Sinh viên B – Core Maintainer | Write |
 | [@ttbqb1st](https://github.com/ttbqb1st) | Sinh viên C – Triager / Reviewer | Triage |
 
-**Lưu ý phân quyền:** Repository hiện thuộc tài khoản cá nhân `shun2195`. GitHub không chấp nhận cấp quyền `triage` cho collaborator trên repository cá nhân trong lần cấu hình này. Để cấp đúng quyền Triage mà không nâng quá quyền, cần chuyển repository vào một GitHub Organization rồi mời `ttbqb1st` với quyền Triage. Không cấp Write thay thế vì sẽ vượt quá quyền cần thiết.
+**Trạng thái cấu hình thực tế:** Repository đã được chuyển vào GitHub Organization `mnm-oss-team`. `@shun2195` là Organization Owner và có quyền Admin trên repository; `@ttoannp` đã có quyền Write; lời mời quyền Triage cho `@ttbqb1st` đã được gửi và đang chờ người nhận chấp nhận. Sau khi chấp nhận, quyền Triage sẽ có hiệu lực. Không cấp Write thay thế vì sẽ vượt quá quyền cần thiết.
 
 ## Cấu trúc
 

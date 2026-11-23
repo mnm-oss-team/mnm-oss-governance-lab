@@ -17,7 +17,7 @@ Dự án vận hành theo mô hình **Consensus-Seeking kết hợp Meritocracy*
 | @ttoannp | Core Maintainer – Sinh viên B | Write | Code review, duy trì nhánh phát triển, kiểm tra chất lượng và theo dõi Roadmap |
 | @ttbqb1st | Triager / Reviewer – Sinh viên C | Triage | Sàng lọc Issue, gắn nhãn, kiểm tra khả năng tái hiện và hỗ trợ Contributor mới |
 
-**Ghi chú kỹ thuật:** Repository đang nằm dưới tài khoản cá nhân. GitHub API từ chối cấp quyền Triage cho collaborator trên repository này. Quyền Triage của @ttbqb1st là quyền mục tiêu trong mô hình; cần chuyển repository vào Organization để áp dụng chính xác. Không tự ý cấp Write thay thế.
+**Trạng thái cấu hình thực tế:** Repository đã được chuyển vào Organization `mnm-oss-team`. @shun2195 là Organization Owner/Admin; @ttoannp đã có quyền Write; lời mời quyền Triage cho @ttbqb1st đang chờ chấp nhận. Quyền Triage có hiệu lực sau khi người nhận chấp nhận lời mời. Không tự ý cấp Write thay thế.
 
 ## 3. Bậc thang thăng tiến (Contributor Ladder)
 
