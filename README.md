@@ -18,8 +18,9 @@ Repository thực hành môn Mạng máy tính nâng cao – chủ đề **Quả
 | [@shun2195](https://github.com/shun2195) | Sinh viên A – Project Lead / Steering Council | Admin |
 | [@ttoannp](https://github.com/ttoannp) | Sinh viên B – Core Maintainer | Write |
 | [@ttbqb1st](https://github.com/ttbqb1st) | Sinh viên C – Triager / Reviewer | Triage |
+| [@topo1908](https://github.com/topo1908) | Sinh viên D – Community Contributor | Read / Fork |
 
-**Trạng thái cấu hình thực tế:** Repository đã được chuyển vào GitHub Organization `mnm-oss-team`. `@shun2195` là Organization Owner và có quyền Admin trên repository; `@ttoannp` đã có quyền Write; lời mời quyền Triage cho `@ttbqb1st` đã được gửi và đang chờ người nhận chấp nhận. Sau khi chấp nhận, quyền Triage sẽ có hiệu lực. Không cấp Write thay thế vì sẽ vượt quá quyền cần thiết.
+**Trạng thái cấu hình thực tế:** Repository thuộc GitHub Organization `mnm-oss-team`. `@shun2195` là Organization Owner/Admin, `@ttoannp` có quyền Write, `@ttbqb1st` đã có quyền Triage (được API GitHub xác nhận) và đã đóng Issue #1. `@topo1908` là vai trò Community Contributor, có thể làm việc qua fork/PR mà không cần quyền ghi. Không cấp Write cho C vì vượt quá quyền cần thiết.
 
 ## Cấu trúc
 

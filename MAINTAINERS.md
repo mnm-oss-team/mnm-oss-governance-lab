@@ -8,7 +8,9 @@
 | [@ttoannp](https://github.com/ttoannp) | Core Maintainer (Sinh viên B) | Write | Code review, merge PR đủ điều kiện, release và Roadmap |
 | [@ttbqb1st](https://github.com/ttbqb1st) | Triager / Reviewer (Sinh viên C) | Triage | Phân loại Issue, gán nhãn, tái hiện lỗi, hỗ trợ Contributor |
 
-**Trạng thái cấu hình quyền thực tế:** Repository thuộc Organization `mnm-oss-team`. @shun2195 là Organization Owner và có quyền Admin; @ttoannp đã có quyền Write; lời mời quyền Triage cho @ttbqb1st đã được gửi và đang chờ chấp nhận. Quyền Triage sẽ có hiệu lực sau khi người nhận chấp nhận lời mời. Không nâng quyền C lên Write chỉ để thay thế Triage.
+**Community Contributor (Sinh viên D):** [@topo1908](https://github.com/topo1908), đóng vai trò người đề xuất RFC và gửi PR từ fork theo yêu cầu bài thực hành; không giữ quyền quản trị repository.
+
+**Trạng thái cấu hình quyền thực tế:** Repository thuộc Organization `mnm-oss-team`. @shun2195 là Organization Owner/Admin; @ttoannp có quyền Write; @ttbqb1st đã chấp nhận lời mời và được API GitHub xác nhận quyền `triage`. @ttbqb1st đã đóng Issue #1 trong bài thực hành, minh chứng khả năng quản lý Issue. Quyền Triage không cho phép merge Pull Request. Không nâng quyền C lên Write.
 
 ## 2. Chính sách kế thừa khẩn cấp (Emergency Succession Plan)
 

@@ -16,8 +16,9 @@ Dự án vận hành theo mô hình **Consensus-Seeking kết hợp Meritocracy*
 | @shun2195 | Project Lead / Steering Council – Sinh viên A | Admin | Quản trị repository, ban hành quy chế, xử lý tranh chấp CoC và quyết định phê duyệt cuối cùng |
 | @ttoannp | Core Maintainer – Sinh viên B | Write | Code review, duy trì nhánh phát triển, kiểm tra chất lượng và theo dõi Roadmap |
 | @ttbqb1st | Triager / Reviewer – Sinh viên C | Triage | Sàng lọc Issue, gắn nhãn, kiểm tra khả năng tái hiện và hỗ trợ Contributor mới |
+| @topo1908 | Community Contributor – Sinh viên D | Read / Fork | Gửi Issue và PR từ fork, soạn RFC theo quy trình review |
 
-**Trạng thái cấu hình thực tế:** Repository đã được chuyển vào Organization `mnm-oss-team`. @shun2195 là Organization Owner/Admin; @ttoannp đã có quyền Write; lời mời quyền Triage cho @ttbqb1st đang chờ chấp nhận. Quyền Triage có hiệu lực sau khi người nhận chấp nhận lời mời. Không tự ý cấp Write thay thế.
+**Trạng thái cấu hình thực tế:** Repository thuộc Organization `mnm-oss-team`. @shun2195 là Owner/Admin, @ttoannp đã có Write, @ttbqb1st đã có Triage (API xác nhận). @ttbqb1st đã đóng Issue #1; quyền này không bao gồm merge Pull Request. @topo1908 tham gia theo vai trò Community Contributor bằng Issue/PR từ fork. Không nâng quyền C lên Write.
 
 ## 3. Bậc thang thăng tiến (Contributor Ladder)
 
